@@ -38,3 +38,31 @@ body {
     object-fit: cover;
     width: 50%;
 }
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+    padding: 0 0 40px;
+}
+
+.swiper-slide {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.swiper-button-prev {
+    padding: 32px;
+}
+
+.swiper-button-next {
+    padding: 32px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
