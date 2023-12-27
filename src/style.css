@@ -8,3 +8,33 @@
 body {
     background-color: rgba(58, 65, 78, 1);
 }
+
+.title {
+    color: rgba(241, 242, 243, 1);
+    font-size: 36px;
+    margin: 64px 0 48px;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgba(241, 242, 243, 1);
+    font-size: 32px;
+    margin: 64px 0 24px;
+    text-align: center;
+}
+
+.content {
+}
+
+.content__block {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.content__block img {
+    border-radius: 50px;
+    height: auto;
+    object-fit: cover;
+    width: 50%;
+}
