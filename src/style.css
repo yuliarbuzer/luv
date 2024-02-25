@@ -30,7 +30,8 @@ body {
 .content {
 }
 
-.content__block {
+.content__block,
+.content__block-2 {
     display: flex;
     justify-content: center;
     padding: 20px 0;
@@ -89,4 +90,11 @@ body {
     color: whitesmoke;
     width: 80%;
     margin: 0 auto;
+}
+
+.content__block-2 img {
+    border-radius: 50px;
+    height: auto;
+    object-fit: cover;
+    width: 80%;
 }
