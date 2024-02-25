@@ -78,3 +78,15 @@ body {
         height: 100%;
     }
 }
+
+.container {
+    border-top: 1px solid aqua;
+    padding: 0 0 50px;
+}
+
+.text {
+    font-size: 28px;
+    color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+}
