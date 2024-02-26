@@ -86,10 +86,14 @@ body {
 }
 
 .text {
-    font-size: 28px;
+    font-size: 24px;
     color: whitesmoke;
     width: 80%;
     margin: 0 auto;
+}
+
+.text p {
+    margin: 10px 0;
 }
 
 .content__block-2 img {
